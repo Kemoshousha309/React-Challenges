@@ -1,0 +1,12 @@
+.page-container {
+    width: min(100%, 1000px);
+    margin: 0 auto;
+}
+
+.page-main-row , .page-row {
+    display: grid;
+    grid-template-columns: auto  repeat(2, 1fr);
+    gap: 10px;
+    border-bottom: solid 1px #b6b6b6;
+
+}

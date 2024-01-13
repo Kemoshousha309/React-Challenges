@@ -1,0 +1,31 @@
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 20px auto;
+
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.director {
+    cursor: pointer;
+}
+
+.page-number {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+.current {
+    border-radius: 50%;
+    background-color: blueviolet;
+    color: white;
+}

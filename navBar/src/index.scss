@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  @media only screen and (max-width: 1400px)  {
+    font-size: 70%;
+  }
+  @media only screen and (max-width: 1000px)  {
+    font-size: 65%;
+  }
+  @media only screen and (max-width: 800px)  {
+    font-size: 60%;
+  }
+  @media only screen and (max-width: 600px)  {
+    font-size: 55%;
+  }
+  @media only screen and (max-width: 400px)  {
+    font-size: 45%;
+  }
+}
+
+body {
+  font-size: 1.5rem;
+}

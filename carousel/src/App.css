@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  display: flex;
+  width: min(100%, 900px);
+  height: 300px;
+  margin: 10px;
+  /* overflow-y: scroll; */
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.img-container {
+  display: flex;
+  width: fit-content;
+  transition: all .3s;  
+}
+
+.img {
+  max-width: calc(100% / 3);
+  height: 100%;
+  object-fit: cover;
+}
+
+.controls {
+  font-size: 1.2rem;
+  margin: 10px;
+  cursor: pointer;
+
+}
+

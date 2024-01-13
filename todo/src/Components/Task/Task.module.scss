@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    background-color: #FBF9F1;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    cursor: move;
+    border-left: solid 2px orangered;
+}
+
+.value {
+
+}
+
+.dragging{
+    opacity: .5;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.left {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 5px;
+}

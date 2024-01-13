@@ -1,0 +1,35 @@
+.container {
+    width: 400px;
+    height: 400px;  
+    animation: beats 1.5s linear none infinite;
+    background-color: #D80032;
+    position: fixed;
+    bottom: -170px;
+    left: 50%;
+    transform: translatex(-50%);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+@keyframes beats {
+    0%{
+        width: 350px;
+        height: 350px;
+        opacity: .5;
+    }
+    50%{
+        width: 400px;
+        height: 400px;
+        opacity: .8;
+    }
+
+    100%{
+        width: 350px;
+        height: 350px;
+        opacity: .5;    
+    }
+}
+
+
